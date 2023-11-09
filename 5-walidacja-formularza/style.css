@@ -1,0 +1,42 @@
+.forms-container {
+  background-color: rgb(154, 186, 27);
+  margin: 100px auto;
+  padding: 20px;
+  width: 330px;
+  height: 340px;
+}
+.forms-container #errors {
+  color: red;
+}
+
+#formNewsletter {
+  color: white;
+  height: 90%;
+  margin: auto;
+  font-size: 16px;
+}
+
+#formNewsletter input,
+label {
+  margin-top: 5px;
+  display: inline-block;
+}
+
+#formNewsletter input[type="text"],
+input[type="email"] {
+  height: 20px;
+  width: 90%;
+}
+
+#formNewsletter input[type="submit"] {
+  margin: 20px 110px;
+
+  width: 100px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bolder;
+  text-transform: uppercase;
+  background-color: orange;
+  border: none;
+  color: white;
+}

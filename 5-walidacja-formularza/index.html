@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>walidacja formularza</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="forms-container">
+      <form action="" id="formNewsletter">
+        <ul id="errors"></ul>
+
+        <label for="nameAndSurname">Imię i nazwisko</label><br />
+        <input
+          type="text"
+          placeholder="Jan Nowak"
+          name="nameAndSurname"
+          id="nameAndSurname"
+        /><br />
+
+        <label for="emailAddress">Adres mailowy</label><br />
+        <input
+          type="email"
+          placeholder="jannowak@o2.pl"
+          name="emailAddress"
+          id="emailAddress"
+        /><br />
+
+        <input type="checkbox" name="agrement1" id="agrement1" />
+        <label for="agrement1">Wyrażam zgode pierwszą</label><br />
+
+        <input type="checkbox" name="agrement2" id="agrement2" />
+        <label for="agrement2">Wyrażam zgode drugą</label><br />
+
+        <input type="checkbox" name="allAgrement" id="allAgrement" />
+        <label for="allAgrement">Wyrażam wszystkie zgody</label><br />
+
+        <input type="submit" value="Wyślij" id="submit-btn" />
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
